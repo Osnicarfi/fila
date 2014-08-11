@@ -1,9 +1,26 @@
+body{
+	background: url('/images/background.jpg');
+	background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.center {
+margin-top: 100px;
+margin-right: auto;
+margin-left: auto;
+display:block;
+width:700px;
+}
+
+h2, h3 { text-align: center;  }
+
 .banner img {
 	 width: 33%;
 }
 
 .second {
-  background: blue;
+  background: #CDF4E2;
   padding: 40px;
 }
 
