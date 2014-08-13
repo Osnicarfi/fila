@@ -1,6 +1,6 @@
-class CreateInformation < ActiveRecord::Migration
+class CreateData < ActiveRecord::Migration
   def change
-    create_table :information do |t|
+    create_table :data do |t|
       t.string :email
       t.string :zipcode
 
