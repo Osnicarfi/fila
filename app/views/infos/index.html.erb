@@ -1,0 +1,34 @@
+<div class="center">
+    <!--Change wideo width and height here-->
+<div id="wideo-embed-block" 
+  wideo-width="810" 
+  wideo-height="465"
+  wideo-id="2351231407466300749"
+  autoplay="false">
+</div>
+<script type="text/javascript">(function(){var x=document.createElement('script'), s=document.getElementsByTagName('script')[0];x.async=true;x.src='http://static.wideo.co/js/embed/wideoembed.js';s.parentNode.insertBefore(x,s)})();</script>
+  </div>
+</div>
+
+<div class="container">
+<div class="second">
+  <h2>We are so excited to bring all this cool stuff to you guys!</h2>
+  <h3>Would you like to see all this happen as soon as possible? Give us your support, we promise that as soon as possible we are going to make this a reality! </h3><br><br>
+<%= form_for :info do |f| %>
+  <div class="form-group">
+       <%= f.label :Email_address %>
+       <%= f.text_field :email, class: "form-control", :autofocus => true, placeholder: "Enter email" %>
+  </div>
+
+  <div class="form-group">
+       <%= f.label :Zip_Code %>
+       <%= f.text_field :zipcode, class: "form-control", :autofocus => true, placeholder: "Zip Code" %>
+  </div>
+
+  <div class="form-group">
+        <%= f.submit "Submit", class: "btn btn-danger" %>
+  </div>
+<% end %>
+
+</div>
+</div>

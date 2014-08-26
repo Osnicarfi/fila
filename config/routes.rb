@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
+  resources :infos
+
   resources :data
 
-  root "pages#home"
+  root "infos#index"
   resources :datum, only: :create
 
   # The priority is based upon order of creation: first created -> highest priority.
